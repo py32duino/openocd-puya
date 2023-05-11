@@ -56,6 +56,7 @@ extern const struct flash_driver psoc5lp_flash;
 extern const struct flash_driver psoc5lp_eeprom_flash;
 extern const struct flash_driver psoc5lp_nvl_flash;
 extern const struct flash_driver psoc6_flash;
+extern const struct flash_driver puyaf0x_flash;
 extern const struct flash_driver renesas_rpchf_flash;
 extern const struct flash_driver rp2040_flash;
 extern const struct flash_driver sh_qspi_flash;
@@ -132,6 +133,7 @@ static const struct flash_driver * const flash_drivers[] = {
 	&psoc5lp_eeprom_flash,
 	&psoc5lp_nvl_flash,
 	&psoc6_flash,
+	&puyaf0x_flash,
 	&renesas_rpchf_flash,
 	&rp2040_flash,
 	&sh_qspi_flash,
